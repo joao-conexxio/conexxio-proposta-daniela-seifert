@@ -1,0 +1,132 @@
+{
+  "slug": "daniela-seifert",
+  "negocio": {
+    "nome": "Dra. Daniela Seifert",
+    "whatsapp": "5547988318953",
+    "telefone": "(47) 98831-8953",
+    "funcionamento": { "seg": null, "ter": "08:00-18:00", "qua": "08:00-12:00", "qui": "08:00-18:00", "sex": "08:00-12:00", "sab": null, "dom": null },
+    "unidades": [
+      {
+        "bairro": "Centro · Joinville",
+        "endereco": "Helbor Offices, sala 610 · Rua Henrique Meyer, 280 – Centro, Joinville – SC, 89201-405",
+        "telefone": "(47) 98831-8953",
+        "horario": "Terça e quinta, das 8h às 18h · quarta e sexta, das 8h ao meio-dia"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A5536",
+    "brand2": "#6B3D22",
+    "ink": "#2E1F16",
+    "bg": "#F7F3EC",
+    "pulse": "#B9957D",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    { "id": "header", "data": { "links": [
+      { "texto": "Tratamentos", "href": "#tratamentos" },
+      { "texto": "Patch Test", "href": "#patch-test" },
+      { "texto": "Avaliações", "href": "#depoimentos" },
+      { "texto": "Onde fica", "href": "#unidades" }
+    ] } },
+    { "id": "hero", "variant": "moldura", "data": {
+      "eyebrow": "Dermatologia · Joinville",
+      "h1": "A pele cuidada por inteiro, da alergia à estética",
+      "lead": "Dermatologia clínica, cirúrgica e estética com a Dra. Daniela Seifert, no Helbor Offices, Centro de Joinville. Consulta com tempo para examinar e explicar.",
+      "cta": "Agendar pelo WhatsApp",
+      "ctaSecundario": "Ver tratamentos",
+      "ctaSecundarioHref": "#tratamentos",
+      "imagem": "fotos/retrato.jpg",
+      "imagemAlt": "Dra. Daniela Seifert, dermatologista, de jaleco branco e braços cruzados",
+      "tarja": ["4,9 no Google, 256 avaliações", "CRM-SC 31.068", "Patch Test no consultório", "Helbor Offices, no Centro"]
+    } },
+    { "id": "fita", "variant": "inclinada", "data": { "itens": [
+      "Dermatologia clínica", "Dermatologia cirúrgica", "Estética", "Teste de contato", "Pele, cabelo e unhas", "Centro de Joinville"
+    ] } },
+    { "id": "manifesto", "data": {
+      "eyebrow": "O consultório",
+      "citacao": "Saúde da pele com ciência e naturalidade.",
+      "autor": "Dra. Daniela Seifert · CRM-SC 31.068",
+      "texto": [
+        "A Dra. Daniela atende sozinha, com hora marcada, numa sala do Helbor Offices no Centro. Quem chega com uma queixa sai sabendo o que tem, o que fazer em casa e quando voltar.",
+        "Na estética, a régua é a mesma da clínica: indicar o que a pele precisa, sem mudar o rosto de ninguém."
+      ],
+      "imagem": "fotos/consultorio.jpg",
+      "imagemAlt": "Consultório da Dra. Daniela Seifert, com cadeira de procedimentos, bancada e luz de teto em linhas"
+    } },
+    { "id": "tratamentos", "variant": "pilha", "data": {
+      "titulo": "O que a Dra. Daniela atende",
+      "lead": "Tudo começa numa consulta. A partir dela, a doutora indica exame, tratamento ou procedimento.",
+      "itens": [
+        { "nome": "Dermatologia clínica", "descricao": "Acne, manchas, dermatites, queda de cabelo e problemas de unha. Diagnóstico, receita e acompanhamento até a pele assentar.", "icone": "pele" },
+        { "nome": "Teste de contato (Patch Test)", "descricao": "Para a alergia de pele que vai e volta: o exame aponta a substância que causa a reação, e o tratamento passa a mirar a causa.", "icone": "molecula" },
+        { "nome": "Dermatologia cirúrgica", "descricao": "Retirada de pintas, cistos e lesões que precisam de análise, com anestesia local e retorno para ver a cicatrização.", "icone": "microscopio" },
+        { "nome": "Estética", "descricao": "Procedimentos para a pele do rosto indicados na consulta, com resultado natural e plano de manutenção combinado.", "icone": "rosto" }
+      ]
+    } },
+    { "custom": "blocos/patch-test.html" },
+    { "id": "conversa", "data": {
+      "eyebrow": "Agendamento",
+      "titulo": "Marcar é uma conversa no WhatsApp",
+      "lead": "A secretária responde, encaixa o horário e já avisa o que levar. É o atendimento que mais aparece nas avaliações.",
+      "cta": "Chamar no WhatsApp",
+      "contato": "Dra. Daniela Seifert",
+      "mensagens": [
+        { "de": "paciente", "texto": "Oi! Minha pele vive dando alergia, melhora e volta. A doutora faz o teste de contato?" },
+        { "de": "clinica", "texto": "Oi! Faz sim, aqui no consultório. Primeiro é uma consulta para ela avaliar e indicar o teste." },
+        { "de": "paciente", "texto": "Tem horário essa semana?" },
+        { "de": "clinica", "texto": "Tenho quinta às 14h ou sexta às 9h. Qual fica melhor pra você?" },
+        { "de": "paciente", "texto": "Quinta às 14h 🙂" }
+      ]
+    } },
+    { "id": "numeros", "variant": "vivo", "data": {
+      "titulo": "O que os pacientes contam no Google",
+      "itens": [
+        { "valor": "4,9", "rotulo": "nota média no Google" },
+        { "valor": "256", "rotulo": "avaliações publicadas", "contar": 256 },
+        { "valor": "21", "rotulo": "avaliações elogiam a recepção", "contar": 21 }
+      ]
+    } },
+    { "id": "depoimentos", "variant": "citacoes", "data": {
+      "titulo": "Nas palavras de quem já foi atendido",
+      "itens": [
+        { "texto": "A Dra. foi extremamente atenciosa, gentil e cuidadosa em todos os momentos. Esclareceu minhas dúvidas com muita paciência.", "autor": "Daniela G.", "contexto": "no Google" },
+        { "texto": "Examinou o que eu precisava, além de me dar dicas sobre outras dúvidas que eu tinha.", "autor": "Luis Fernando", "contexto": "no Google" },
+        { "texto": "Sempre assertiva nos diagnósticos, muito humana e antenada com o que há de mais moderno nos tratamentos.", "autor": "Solange", "contexto": "no Google" },
+        { "texto": "Muito atenciosa nos cuidados com o paciente, e a secretária muito dedicada também.", "autor": "Maria", "contexto": "no Google" }
+      ]
+    } },
+    { "id": "passos", "variant": "timeline", "data": {
+      "titulo": "Do primeiro contato ao retorno",
+      "itens": [
+        { "titulo": "Mensagem no WhatsApp", "texto": "Você conta a queixa e escolhe o horário com a secretária.", "icone": "conversa" },
+        { "titulo": "Consulta", "texto": "A doutora examina a pele, explica o que encontrou e monta o plano.", "icone": "estetoscopio" },
+        { "titulo": "Exame ou procedimento", "texto": "Quando precisa, o Patch Test, a retirada de uma lesão ou o procedimento estético são feitos ali mesmo.", "icone": "check" },
+        { "titulo": "Retorno", "texto": "A volta fica marcada para ver a resposta da pele e ajustar o tratamento.", "icone": "agenda" }
+      ]
+    } },
+    { "id": "faq", "variant": "acordeao", "data": {
+      "titulo": "Perguntas frequentes",
+      "itens": [
+        { "p": "A doutora atende convênio?", "r": "Atende alguns. A lista atualizada fica nos destaques do Instagram e pode ser confirmada pelo WhatsApp antes de marcar." },
+        { "p": "Atende criança?", "r": "Atende. Várias avaliações no Google são de pais que levaram os filhos à consulta." },
+        { "p": "O Patch Test dói?", "r": "Não. São adesivos nas costas. O cuidado é não molhar a região até a retirada e voltar nos dias de leitura." },
+        { "p": "Quais são os dias de atendimento?", "r": "Terça e quinta das 8h às 18h, quarta e sexta das 8h ao meio-dia." },
+        { "p": "Tem estacionamento e acessibilidade?", "r": "O Helbor Offices tem entrada, banheiro e vagas com acessibilidade para cadeira de rodas." }
+      ]
+    } },
+    { "id": "unidades", "variant": "unica", "data": { "titulo": "Onde fica", "imagem": "fotos/fachada.jpg" } },
+    { "id": "cta-final", "variant": "bloco-cheio", "data": {
+      "h2": "Aquela mancha ou alergia que você vem adiando",
+      "lead": "Mande uma mensagem contando o que está acontecendo com a sua pele. A secretária encontra o melhor horário.",
+      "cta": "Agendar pelo WhatsApp"
+    } },
+    { "id": "footer", "variant": "assinatura", "data": {} }
+  ]
+}

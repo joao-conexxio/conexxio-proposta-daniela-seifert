@@ -1,0 +1,64 @@
+<section class="blk-pt" id="patch-test">
+  <div class="wrap blk-pt__grade">
+    <div class="blk-pt__cab" data-reveal>
+      <p class="blk-pt__eyebrow">Teste de contato</p>
+      <h2 class="blk-pt__titulo">A alergia de pele que melhora, some e volta tem uma causa</h2>
+      <p class="blk-pt__lead" data-acende>Coceira, vermelhidão e descamação que insistem em voltar podem ser dermatite de contato: uma reação a alguma coisa da sua rotina. O Patch Test procura essa substância, e a Dra. Daniela faz o exame no próprio consultório.</p>
+      <div class="blk-pt__foto" data-parallax><!--foto:fotos/preparo.jpg|Dra. Daniela Seifert de luvas preparando o material do teste de contato no consultório--></div>
+    </div>
+
+    <div class="blk-pt__lado">
+      <div class="blk-pt__camaras" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span class="on"></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span class="on"></span><span></span>
+      </div>
+      <p class="blk-pt__legenda">Cada círculo é uma substância testada. A que reage aponta a causa.</p>
+
+      <ol class="blk-pt__dias" data-pilha>
+        <li class="blk-pt__dia" data-reveal style="--d:0ms">
+          <span class="blk-pt__quando">1ª visita</span>
+          <h3>Aplicação</h3>
+          <p>As substâncias vão em adesivos nas costas. Até a retirada, as costas não podem molhar.</p>
+        </li>
+        <li class="blk-pt__dia" data-reveal style="--d:90ms">
+          <span class="blk-pt__quando">2ª visita</span>
+          <h3>Retirada e primeira leitura</h3>
+          <p>Os adesivos saem e a pele é examinada pela primeira vez.</p>
+        </li>
+        <li class="blk-pt__dia" data-reveal style="--d:180ms">
+          <span class="blk-pt__quando">3ª visita</span>
+          <h3>Leitura final e conduta</h3>
+          <p>Algumas reações só aparecem depois. Com o resultado, você sai sabendo o que evitar e como tratar.</p>
+        </li>
+      </ol>
+      <p class="blk-pt__nota" data-reveal>São três idas ao consultório em poucos dias. Os horários de retorno já são combinados na primeira visita.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-pt{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 14%,var(--bg))}
+.blk-pt__grade{display:grid;gap:var(--sp-5)}
+.blk-pt__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pt__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pt__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-pt__foto{margin-top:var(--sp-4);border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5;max-width:26rem}
+.blk-pt__foto img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;display:block}
+.blk-pt__camaras{display:grid;grid-template-columns:repeat(5,1fr);gap:.7rem;max-width:18rem;padding:var(--sp-3);border-radius:var(--radius);background:var(--bg);box-shadow:0 1px 0 color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-pt__camaras span{aspect-ratio:1;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--brand) 40%,transparent);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-pt__camaras span.on{background:color-mix(in srgb,var(--brand) 55%,var(--bg));border-color:var(--brand);box-shadow:0 0 0 6px color-mix(in srgb,var(--brand) 14%,transparent);animation:blkPtPulso 2.6s ease-in-out infinite}
+@keyframes blkPtPulso{50%{box-shadow:0 0 0 11px color-mix(in srgb,var(--brand) 4%,transparent)}}
+@media (prefers-reduced-motion:reduce){.blk-pt__camaras span.on{animation:none}}
+.blk-pt__legenda{margin:var(--sp-2) 0 var(--sp-4);font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 62%,transparent)}
+.blk-pt__dias{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-pt__dia{padding:var(--sp-3) var(--sp-3) var(--sp-3) calc(var(--sp-3) + 4px);background:var(--bg);border-radius:var(--radius);border-left:4px solid var(--brand)}
+.blk-pt__quando{font-family:var(--f-body);font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--brand)}
+.blk-pt__dia h3{margin:var(--sp-1) 0 var(--sp-1);font-family:var(--f-display);font-size:1.5rem;line-height:1.15;color:var(--ink)}
+.blk-pt__dia p{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-pt__nota{margin:var(--sp-4) 0 0;font-family:var(--f-display);font-style:italic;font-size:1.2rem;line-height:1.4;color:var(--brand)}
+@media (min-width:900px){
+  .blk-pt__grade{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--sp-6,5rem);align-items:start}
+  .blk-pt__lado{padding-top:var(--sp-4)}
+}
+</style>
